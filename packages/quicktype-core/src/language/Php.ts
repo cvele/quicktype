@@ -56,7 +56,7 @@ export class PhpTargetLanguage extends TargetLanguage {
         const mapping: Map<TransformedStringTypeKind, PrimitiveStringTypeKind> = new Map();
         mapping.set("date", "date"); // TODO is not implemented yet
         mapping.set("time", "time"); // TODO is not implemented yet
-        mapping.set("uuid", "uuid"); // TODO is not implemented yet
+        mapping.set("uuid", "string"); // TODO is not implemented yet
         mapping.set("date-time", "date-time");
         return mapping;
     }
